@@ -6,10 +6,10 @@ int main()
 {
     // Variable declarations
     char Start, Exit, Word[6], Again, Guess[6], Playagain;
-    int attempts = 5; // Maximum number of attempts allowed
+    int attempts = 5; // Maximum number of attempts
 
 Continu: // Label for the main menu
-    clrscr(); // Clears the screen 
+    clrscr();
     printf("Hello and Welcome to Wordle (The Word Game)\n");
     printf("Code by Mandanka Vedant (12402130501063)\n\n\n");
     printf("Game guide: \n gray: The letter is not in the word. \n Yellow: The letter is in the word but missplaced. \n Green: The letter is in the word and its in currect position.");
