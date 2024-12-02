@@ -132,7 +132,7 @@ GameStart:
     playagain:
     printf("\nDo you want to continue?");
     printf("\nType Y if yes and Type N if not: ");
-    scanf(" %c", &Playagain); // Added space before %c to handle newline
+    scanf(" %c", &Playagain);
 
     if (Playagain == 'Y') {
         goto Continu;
@@ -140,7 +140,7 @@ GameStart:
         goto exit;
     } else {
         printf("Invalid input. Please enter Y or N.\n");
-        goto playagain; // Prompt again for valid input
+        goto playagain;
     }
 exit:
     return 0;
